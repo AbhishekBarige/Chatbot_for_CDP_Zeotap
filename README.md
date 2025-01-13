@@ -77,10 +77,7 @@ This project involves developing a chatbot designed to answer "how-to" questions
 2. **Environment Setup**  
    Create a `.env` file in the root directory with the following:  
    ```env
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/cdp-chatbot
-   OPENAI_API_KEY=your_openai_api_key
-   ELASTICSEARCH_URI=http://localhost:9200
+  
    ```
 
 3. **Install Dependencies**  
