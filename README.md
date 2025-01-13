@@ -127,18 +127,20 @@ npm test
 ## Project Structure  
 
 ```
-cdp-support-agent-chatbot/
-├── client/                 # Frontend code
-│   ├── src/
-│   │   ├── components/     # Chat interface and utility components
-│   │   ├── pages/          # Main pages (Home, Chatbot, etc.)
-│   │   ├── App.js          # Routes and app structure
-│   └── package.json
-├── server/                 # Backend code
-│   ├── routes/             # API routes
-│   ├── models/             # Database models
-│   ├── controllers/        # Business logic
-│   ├── app.js              # Express app setup
-│   └── package.json
-└── README.md
+cdp-chatbot/
+├── app/
+│   ├── __init__.py         # App initialization
+│   ├── chatbot.py          # Main chatbot logic
+│   ├── cdps/
+│   │   ├── segment.py      # Segment-specific query handling
+│   │   ├── mparticle.py    # mParticle-specific query handling
+│   │   ├── lytics.py       # Lytics-specific query handling
+│   │   └── zeotap.py       # Zeotap-specific query handling
+│   ├── templates/
+│   │   └── index.html      # Frontend HTML for the chatbot
+│   └── static/
+│       └── style.css       # Styling for the chatbot
+├── requirements.txt        # Python dependencies
+├── run.py                  # Main entry point for the application
+└── README.md               # Documentation
 ``
