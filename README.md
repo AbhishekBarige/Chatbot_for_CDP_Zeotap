@@ -46,7 +46,7 @@ This project involves developing a chatbot designed to answer "how-to" questions
 
 ### Backend  
 - **Node.js with Express.js**: Handles API requests and chatbot interactions.  
-- **MongoDB**: Stores user queries and processed responses.  
+- **Flask**: lightweight Python web framework used for building web applications and APIs. 
 
 ### Frontend  
 - **React.js**: Creates an interactive and responsive chatbot interface.  
@@ -65,13 +65,13 @@ This project involves developing a chatbot designed to answer "how-to" questions
 
 ### Prerequisites  
 - Node.js and npm/yarn installed.  
-- MongoDB instance (local or remote).  
+- Flask  
 
 ### Steps  
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/shreyash0019/chat-bot-zeotap-assignment.git
-   cd chat-bot-zeotap-assignmen
+   git clone https://github.com/AbhishekBarige/Chatbot_for_CDP_Zeotap.git
+   cd Chatbot_for_CDP_Zeotap 
    ```
 
 2. **Environment Setup**  
@@ -85,10 +85,8 @@ This project involves developing a chatbot designed to answer "how-to" questions
 
 3. **Install Dependencies**  
    ```bash
-   cd client
-   npm install
-   cd ../server
-   npm install
+   pip install -r requirements.txt
+Run the Application:
    ```
 
 4. **Run the Application**  
@@ -98,11 +96,13 @@ This project involves developing a chatbot designed to answer "how-to" questions
    ```  
    Start the frontend:  
    ```bash
-   npm run dev
+   python run.py
+  
+
    ```  
 
 5. **Access the Application**  
-   Open your browser and go to `http://localhost:5173`.  
+   Access the Chatbot: Open your browser and navigate to http://127.0.0.1:5000.
 
 ---
 
